@@ -1,0 +1,12 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".txt" #>
+
+Hello from Include 2
+
+<#+
+private void ShowMessage(){
+#>
+Hello from ShowMessage
+<#+
+}
+#>

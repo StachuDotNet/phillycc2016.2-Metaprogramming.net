@@ -1,0 +1,12 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".txt" #>
+
+Hello World,
+
+The time is now <#= DateTime.Now.ToShortTimeString() #>
+
+<#
+    for (int i = 0; i < 10; i++) {
+        WriteLine(i.ToString());
+    }
+#>

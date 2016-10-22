@@ -1,0 +1,21 @@
+﻿<#@ template debug="true" hostspecific="false" language="C#" #>
+<#@ output extension=".txt" #>
+
+<#= Capitalize("Asdf") #>
+
+<#+
+private string Capitalize(string m) {
+	if (string.IsNullOrEmpty(m)){
+		Error("input cannot be empty");
+	}
+
+	string changed = m.ToUpper();
+
+	if (m.Equals(changed)){
+		Warning("input unchanged");
+	}
+
+	return changed;
+}
+
+#>
