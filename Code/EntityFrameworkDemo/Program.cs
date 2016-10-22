@@ -14,6 +14,8 @@ namespace EntityFrameworkDemo
 
             using (var db = new MyDbContext())
             {
+                db.Database.Log = s => System.Diagnostics.Debug.WriteLine(s);
+
                 var teens = db.People
                     //.Where(person => person.Age < 20 && person.Age > 12)
                     .ToList();

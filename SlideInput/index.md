@@ -12,11 +12,11 @@
 
 - Who is this guy?
     - Stachu Korick. I won't bore you with my life story.
-    - If you want to chat, grab my business card or grab drinks at the after-party.
+    - If you want to chat, email me or grab drinks at the after-party.
 - Can I ask questions?
     - Yes, but wait for an appropriate time.
-- How much of this consists of code?
-    - Half? Not 100%, in any case.
+- How much of this consists of slides?
+    - 40%? Heavy in the beginning, light near the end.
 - Should I frantically take pictures of the screen?
     - No. Slides/code available at [stachu.net/metaprogramming]
 
