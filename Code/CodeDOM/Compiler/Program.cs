@@ -9,7 +9,7 @@ namespace Compiler
     {
         static void Main()
         {
-            var source = File.ReadAllText(@"D:/output/output.cs");
+            var source = File.ReadAllText(@"G:/output.cs");
 
             var references = new[] { "System.Dll", "System.Core.Dll" };
 

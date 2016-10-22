@@ -11,6 +11,8 @@ namespace ObjectComparator
 
             WriteDeltas(new Foo { X = 123, Y = DateTime.Today, Z = null },
                         new Foo { X = 123, Y = DateTime.Now, Z = new Dummy() });
+
+            Console.ReadKey();
         }
 
         static void WriteDeltas<T>(T x, T y)

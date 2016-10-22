@@ -51,7 +51,7 @@ namespace HelloWorld
 
             var script = codeText.ToString();
 
-            File.WriteAllText("D:/output/output.cs", script);
+            File.WriteAllText("G:/output.cs", script);
             Console.WriteLine(script);
             Console.ReadKey();
         }
